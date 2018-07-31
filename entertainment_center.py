@@ -19,8 +19,8 @@ school_of_rock = media.Movie("School of Rock",
                              "https://www.youtube.com/watch?v=3PsUJFEBC74")
 
 ratatouille = media.Movie("Ratatouille", "Storyline",
-                            "https://goo.gl/JRNkko",
-                            "https://www.youtube.com/watch?v=c3sBBRxDAqk")
+                          "https://goo.gl/JRNkko",
+                          "https://www.youtube.com/watch?v=c3sBBRxDAqk")
 
 midnight_in_paris = media.Movie("Midnight in Paris",
                                 "Storyline",
@@ -28,13 +28,11 @@ midnight_in_paris = media.Movie("Midnight in Paris",
                                 "https://www.youtube.com/watch?v=atLg2wQQxvU")
 
 hunger_games = media.Movie("Hunger Games",
-                            "Storyline",
-                            "https://goo.gl/xRBgVi",
-                            "https://www.youtube.com/watch?v=PbA63a7H0bo")
+                           "Storyline",
+                           "https://goo.gl/xRBgVi",
+                           "https://www.youtube.com/watch?v=PbA63a7H0bo")
 movies = [toy_story, avatar,
           school_of_rock, ratatouille,
           midnight_in_paris, hunger_games]
 
 fresh_tomatoes.open_movies_page(movies)
-
-
